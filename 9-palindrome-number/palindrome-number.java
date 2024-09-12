@@ -9,12 +9,7 @@ class Solution {
             temp=temp*10+rem;
             x/=10;
         }
-        if(sample==temp){
-            return true;
-        }
-        else{
-            return false;
-        }
+        return (temp==sample);
 
         
     }
