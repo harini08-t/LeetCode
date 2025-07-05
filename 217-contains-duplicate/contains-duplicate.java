@@ -3,10 +3,10 @@ class Solution {
         Arrays.sort(nums);
         int a=nums[0];
         for(int i=1;i<nums.length;i++){
-            if(nums[i]==a){
+            if(nums[i]==nums[i-1]){
                 return true;
             }
-            a=nums[i];
+           
         }
         return false;
         
