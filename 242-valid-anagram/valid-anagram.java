@@ -5,8 +5,8 @@ class Solution {
         
 
         for(int i=0;i<s.length();i++){
-            s1[s.charAt(i)-'a']++;
-            s1[t.charAt(i)-'a']--;
+            s1[s.charAt(i)-97]++;
+            s1[t.charAt(i)-97]--;
 
         }
         for(int i:s1){
